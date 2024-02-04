@@ -1,0 +1,109 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(14, 14, 52);
+}
+.card2{
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  box-shadow: 8px 8px 2px 4px rgb(12, 4, 4) ;
+  border: 4px solid rgb(5, 37, 5);
+}
+.card1{
+  border: 4px solid rgb(2, 0, 0);
+
+  text-align: center;
+}
+.btn1{
+  border: 2px solid black;
+}
+.question-txt{
+  font-size: 24px;
+}
+.Question-number{
+  font-size: 24px;
+  
+}
+.option{
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+li{
+  width: 400px;
+  margin: 20px 60px;
+  
+}
+
+
+li:hover{
+  background-color: rgb(83, 130, 142);
+}
+
+
+.outer-container{
+  border: 1px solid;
+  height: 25px;
+
+}
+
+
+
+
+
+.inner-container{
+  height: 100%;
+   background-color: red;
+   width: var('width');
+   text-align: center;
+   color: aliceblue;
+  
+
+
+}
+@media screen and (min-width:200px) and (max-width:1200px){
+  body{
+    margin-top: -20px;
+    padding: 0;
+   box-sizing: border-box;
+   position: fixed;
+   top: -10;
+   left: 0;
+width: 100vw;
+height: 100vh;
+  }
+  .card2{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+  }
+    
+
+  .card-header{
+    height: 80px;
+  }
+  .option{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    
+  
+    
+  }
+  li{
+    width: 240px;
+    height: 50px;
+    margin: 10px 10px;
+    
+  }
+  li:hover{
+    background-color: rgb(124, 124, 173);
+  }
+    
+  .question.count{
+    width: 400px;
+  }
+
+  }
